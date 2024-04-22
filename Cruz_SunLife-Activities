@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cruz SunLife Activities</title>
+    <style>
+      html {
+        scroll-behavior: smooth
+      }
+      .information{
+        font-family: arial; 
+        word-spacing: 5px; 
+        letter-spacing: 3px; 
+        line-height: 70px;
+        margin: 20px;
+        color: #0a194a;
+        display: absolute;
+        font-size: 50px;
+        right: 0px;
+      }
+      body {
+       margin: 0;
+       width: 100vw;
+       height: 100vh;
+      }
+
+      .definingMoments,
+      .introduction,
+      .purpose,
+      .resume {
+        font-family: Times New Roman;
+        color: #000;
+        font-size: 30px
+      }
+
+      .name{
+        font-family: Times New Roman;
+        color: #fff;
+        padding: 0 20px;
+        display: flex;
+        
+      }
+
+      .activity {
+        color: #7a7fb7;
+        font-family: arial;
+        font-size: 20px;
+        border: solid #fce16f;
+        border-width: 0 0 1px 0;
+        padding: 3px
+      }
+
+      header {
+        background-color: #0a194a;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        z-index: 3;
+        width: 100vw;
+      }
+
+      nav {
+        background-color: #0a194a;
+        position: relative;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 100vw;
+        align-items: right;
+        display: inline-flex;
+        max-width: 100%;
+        
+      }
+
+      .headClone {
+        background-color: #0a194a;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        width: 100vw;
+      }
+
+      .navClone {
+        background-color: #0a194a;
+        position: relative;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 100vw;
+        align-items: right;
+        display: inline-flex;
+        max-width: 100%;
+      }
+
+      button {
+        background-color: #0a194a;
+        border: none;
+        padding: 35px;
+        text-align: center;
+        color: #fff;
+        font-size: 15px;
+        font-family: arial;
+        letter-spacing: 5px;
+        width: 100vw;
+
+      }
+
+      button:hover {
+        color: #000;
+        background-color: #5faed8;
+        transition: .3s;
+      }
+
+      .main {
+        background-color: #fce16f;
+        position: relative;
+        width: 100%;
+        left: 0;
+        right: 0
+        
+      }
+
+      section {
+        position: relative;
+        padding: 10px
+      }
+
+      footer {
+        background-color: #0a194a;
+        bottom: 0;
+        position: relative;
+        padding: 10px
+      }
+
+      .video {
+        margin: 20px
+      }
+
+      h2 {
+        text-align: center;
+      }
+      .canvaLogo{
+        width: 500px;
+        position: relative;
+        filter: brightness(50%);
+        bottom: 0;
+
+      }
+      .canvaLogo:hover{
+        bottom: 10px;
+        filter: brightness(100%);
+        transition: 0.3s;
+      }
+      .activityPanel{
+          border: solid 3px #fce16f ;
+          max-width: 100vw;
+          max-height: 100vh;
+          border-radius: 0 100px;
+          margin: 20px;
+      }
+      .artButton{
+          margin: 0;
+          filter: brightness(50%);
+          bottom: 0;
+          position: relative;
+      }
+      
+      .artButton:hover{
+          filter: brightness(100%);
+          transition: 0.3s;
+          bottom: 20px;
+          
+      }
+      iframe{
+          width: 100vw;
+          height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+      
+<!--This is the navigation part-->
+    <header>
+      <h1 class="name">
+        <font color="#FCE16F">Kurosu's </font>Activities
+      </h1>
+      <nav>
+        <button class="btnIntroduction">INTRODUCTION</button>
+        <button class="btnResume">RESUME</button>
+        <button class="btnPurpose">LIFE'S PURPOSE</button>
+        <button class="btnMoments">DEFINING MOMENTS</button>
+      </nav>
+    </header>
+    
+<!--This is the cloned navigation part, it was cloned so that the navigation would not overlap the section part-->
+    <header class="headClone">
+      <h1>
+        <font color="#FCE16F">Kurosu's</font><font color="white">Activities</font>
+      </h1>
+      <nav class="navClone">
+        <button>INTRODUCTION</button>
+        <button>RESUME</button>
+        <button>LIFE'S PURPOSE</button>
+        <button>DEFINING MOMENTS</button>
+      </nav>
+    </header>
+    
+<!--The main part where the website name and information is placed-->
+    <section class="main">
+      <h1 style="font-size:200px;color:#fff">
+        <font color="#0A194A">Kurosu's </font>Activities
+      </h1>
+      <div style="display: flex;">
+      <p class="information">These are my compilation of activities required for the SunLife work immersion. </p> 
+      <a href="https://youtu.be/C-8E0dcIrTE">
+      <img class="artButton" src="https://i.pinimg.com/originals/f6/ed/b4/f6edb418b06ff5e65eac4024af3f7e1d.png">
+      </a>
+      </div>
+    </section>
+
+    
+<!--The Activity 1 section-->
+    <section class="introduction">
+      <h1 class="activity">Activity 1</h1>
+      <h2>Introduction</h2>
+      <p>Greetings, I’m Laurence Ryan C. Cruz. I am currently working as a game sprite animator and designer in an MMORPG game called Graal tropical. I am passionate about creating and developing games.</p>
+<p></p>As an introvert person, I tend to work alone as it keeps me away from distractions and making my work in my own style. I'm also creative, I always tend to create something new and unique. In my spare time, I enjoy learning code, play games, and drawing art digitally and traditionally. It is my way to deal with stress and develop my skills.</p>
+ <p>What makes me standout is that I always do my work in quality. I always want to give my best work for the client and company's satisfaction. I am excited on developing my skills and helping the company.</p>
+ 
+ <p style="color: red">I haven't record the video yet because of a problem, I will send it later</p>
+      <center>
+        <iframe src="https://www.youtube.com/watch?v=d4syuilg80g"></iframe>
+      </center>
+    </section>
+    <hr>
+    
+<!--The Activity 2 section-->
+    <section class="resume">
+      <h1 class="activity">Activity 2</h1>
+      <h2>Resume</h2>
+      <p style="font-family: sans-serif; text-align: center;">Hey there, <strong>Click me</strong> and I will send you to the canva link of the resume.</p>
+      <center>
+      <a href="https://www.canva.com/design/DAGCrYgY6fY/Y0_Cl5XSIhIorgYCCNbauw/edit?utm_content=DAGCrYgY6fY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+      <img class="canvaLogo" src="https://i.pinimg.com/originals/cd/ab/36/cdab36dfeebe8a13cfec4f1a55ad5447.png">
+      </a>
+      </center>
+    </section>
+    <hr>
+    
+<!--The Activity 3 section-->
+    <section class="purpose">
+      <h1 class="activity">Activity 3</h1>
+      <h2>Life's Purpose</h2>
+      <p></p>
+      <center>
+      <div class="activityPanel" style="background-image: url('https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'); width: 500px; color: white; ">
+          <h1 style="color: #fce16f; text-align: center; font-family:; font-size: 30px;">My Life's Purpose</h1>
+          <p style="font-size: 30px; font-family: arial; margin: 20px; line-height: 50px;">&nbsp;&nbsp;&nbsp;To help others from their misery, be a great example to the next generations, and direct them to God so that they will be <strong>righteous and successful</strong> in life.  </p>
+      </div>
+      </center>
+    </section>
+    <hr>
+    
+<!--The Activity 4 section-->
+    <section class="definingMoments">
+      <h1 class="activity">Activity 4</h1>
+      <h2>5 Defining Moments of My Life</h2>
+      <p></p>
+         <p style="font-family: sans-serif; text-align: center;">Hey there, <strong>Click me</strong> and I will send you to the canva link of my 5 defining moments of my life.</p>
+      <center>
+      <a href="https://www.canva.com/design/DAGDHgh1WgI/2Hwx80k879vmama31gavAw/edit?utm_content=DAGDHgh1WgI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+      <img class="canvaLogo" src="https://i.pinimg.com/originals/cd/ab/36/cdab36dfeebe8a13cfec4f1a55ad5447.png">
+      </a>
+      </center>
+    </section>
+    
+<!--The footer where contact information must be placed-->
+    <footer>
+      <h1 style="color:#0a194a">HELLO</h1>
+    </footer>
+    <script>
+    
+//For the navigation
+        document.querySelector(".btnIntroduction").addEventListener("click", function() {
+        document.querySelector(".introduction").scrollIntoView(true)
+      }), 
+      document.querySelector(".btnResume").addEventListener("click", function() {
+        document.querySelector(".resume").scrollIntoView(true)
+      }), 
+      document.querySelector(".btnPurpose").addEventListener("click", function() {
+        document.querySelector(".purpose").scrollIntoView(true)
+      }), 
+      document.querySelector(".btnMoments").addEventListener("click", function() {
+        document.querySelector(".definingMoments").scrollIntoView(true)
+      })
+    </script>
+  </body>
+</html>
